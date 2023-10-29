@@ -1,0 +1,12 @@
+# https://www.youtube.com/watch?v=RcxvrhQKv8I
+
+get http://localhost:5000/api/notes
+
+###
+
+post http://localhost:5000/api/notes
+
+{
+    "title": "One more Note",
+    "content": "One more Note content hereeeee",
+}
